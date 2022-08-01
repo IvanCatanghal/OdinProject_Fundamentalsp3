@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Page Title</title>
+</head>
+<body>
+    <!--
+        Write a function called capitalize that takes a string 
+        and returns that string with only the first letter capitalized. 
+        Make sure that it can take strings that are lowercase, UPPERCASE 
+        or BoTh.
+    -->
+  <script>
+
+    function capitalize(string)
+    {
+        const writeString = prompt("enter a text");
+        let firstLetter = writeString.charAt(0).toUpperCase();
+        let restOfString = writeString.slice(2).toLowerCase();
+        newString = firstLetter + restOfString;
+        return newString;
+    }
+    console.log(capitalize());
+
+  </script>
+</body>
+</html>

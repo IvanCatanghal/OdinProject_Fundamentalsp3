@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Page Title</title>
+</head>
+<body>
+    <!--
+        Write a function called lastLetter that takes a string and 
+        returns the very last letter of that string:
+        lastLetter("abcd") should return "d"
+    -->
+  <script>
+   function lastLetter()
+  {
+    const writeString = prompt("enter a text. The last letter will be returned")
+    let letter = writeString.slice(-1);
+    return letter;
+
+  }
+  console.log(lastLetter())
+  </script>
+</body>
+</html>
